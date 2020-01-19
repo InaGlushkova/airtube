@@ -24,8 +24,8 @@ try:
     P2_value = sensorData[1]["value"]
 
     print('The response is from: \n', timestamp, '\n')
-    print('P10  value - ', P1_value, 'μg/m³')
-    print('P2.5 value - ', P2_value, 'μg/m³')
+    print('P10  value - ', P1_value, 'mg/m3')
+    print('P2.5 value - ', P2_value, 'mg/m3')
 
 except Exception as e:
     print(e)
